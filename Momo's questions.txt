@@ -1,0 +1,2 @@
+-mieux de mettre une class sur chaque élement ou de faire de la cascade en css 
+	ex : avoir une class pour les photos de chats (class="cat-img") ou mettre dans le css direct .cat img

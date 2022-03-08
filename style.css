@@ -56,6 +56,7 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 
 .hero img {
@@ -64,7 +65,7 @@ body {
     margin-bottom: 100px;
 }
 
-.hero-text {
+.hero-left {
     margin-left: 200px;
     margin-right: 200px;
     color: #E5E7EB;
@@ -79,12 +80,37 @@ body {
     color: #f9faf8;
 }
 
-.hero-text button {
+.hero-left button {
     margin-top: 8px;
     border-radius: 10px;
     padding: 8px 32px;
     background-color:  #3882F6;
     color: #f9faf8;
+    border: none;
 }
 
 
+/* CHAT */
+
+.main-content{
+    text-align: center;
+}
+
+.main-content h1 {
+    margin-bottom: 32px;
+}
+
+.cat {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cat img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.cat-info {
+    max-width: 200px;
+}
