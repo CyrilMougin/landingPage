@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -10,6 +11,7 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    
 }
 
 body {
@@ -47,6 +49,8 @@ body {
     gap: 16px;
     font-size: 18px;
     margin-right: 200px;
+    
+    
 }
 
 
@@ -94,6 +98,8 @@ body {
 
 .main-content{
     text-align: center;
+    margin-bottom: 150px;
+    
 }
 
 .main-content h1 {
@@ -113,4 +119,35 @@ body {
 
 .cat-info {
     max-width: 200px;
+    font-size: 18px;
+    color: #E5E7EB
 }
+
+
+/* quote */ 
+
+.quote {
+    
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+}
+
+.quote-cat {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    max-width: 500px;
+}
+
+.quote-cat .cat-signature {
+    font-size: 24px;
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
+}
+
