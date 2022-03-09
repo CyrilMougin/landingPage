@@ -1,2 +1,16 @@
 -mieux de mettre une class sur chaque élement ou de faire de la cascade en css 
 	ex : avoir une class pour les photos de chats (class="cat-img") ou mettre dans le css direct .cat img
+
+-il y a des cas où va utiliser <p> au lieu de <div> finalement ?
+
+-<nav> ça sert vraiment de le mettre ? même pour la visibilité ça me semble pas utile.
+
+
+
+
+
+
+
+
+
+-pas réussi à aligner le header avec le titre, si tu le voit direct chaud que tu me dises, sinon perd pas ton temps, c'est pas grave.
