@@ -13,6 +13,8 @@
 où on préfère mettre la taille à chaque élément séparement.
 
 
+-je pense que mon utilisation des margin et est un peu chaotique
+e tj'imagine qu'à niveau pro l'unité c'est pas le pixel ?
 
 
 
