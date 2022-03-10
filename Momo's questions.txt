@@ -5,12 +5,15 @@
 
 -<nav> ça sert vraiment de le mettre ? même pour la visibilité ça me semble pas utile.
 
+-j'ai fait la forme d'un bouton avec padding et l'autre avec height et width, c'est grave docteur ?
+
+
+-si j'ai une section et un titre et un texte dans la section.
+  mettre font-size 18px pour toute la section, puis redéfenir la taille de h1 par exemple est -il ok ?
+où on préfère mettre la taille à chaque élément séparement.
 
 
 
 
 
 
-
-
--pas réussi à aligner le header avec le titre, si tu le voit direct chaud que tu me dises, sinon perd pas ton temps, c'est pas grave.

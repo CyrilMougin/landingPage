@@ -32,15 +32,13 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 16px;
-    align-items: center;
-
+    padding-top: 16px; /*separate header element with the top */
 }
 
-.header h1 {
+.header h1 { /* header logo */
     font-size: 24px;
     color: #f9faf8;
-    margin-left: 200px;
+    margin-left: 200px; 
     
 }
 
@@ -60,16 +58,16 @@ body {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    margin-bottom: 24px;
+    margin-bottom: 24px; /* margin with the next section */
+    height: 400px;
 }
 
 .hero img {
     margin-right: 200px;
-    margin-top : 100px;
-    margin-bottom: 100px;
+    margin-top : 100px; /* center the img in the section */
 }
 
-.hero-left {
+.hero-left { /* left side of the hero */
     margin-left: 200px;
     margin-right: 200px;
     color: #E5E7EB;
@@ -78,10 +76,8 @@ body {
     
 }
 
-.hero-text h1 {
+.hero-left h1 {  /* hero title */
     font-size: 48px;
-    font-weight: extra-bold;
-    color: #f9faf8;
 }
 
 .hero-left button {
@@ -98,15 +94,15 @@ body {
 
 .main-content{
     text-align: center;
-    margin-bottom: 150px;
+    margin-bottom: 150px; /* margin with the next section */
     
 }
 
-.main-content h1 {
+.main-content h1 {  /* differents cats!*/
     margin-bottom: 32px;
 }
 
-.cat {
+.cat {   /* cats img + text */
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -120,7 +116,7 @@ body {
 .cat-info {
     max-width: 200px;
     font-size: 18px;
-    color: #E5E7EB
+    color: #1F2937
 }
 
 
@@ -133,7 +129,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 350px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; /* margin with the next section */
     
 }
 
@@ -160,10 +156,11 @@ body {
     background-color: #3882F6;
     height: 120px;
     width: 1200px;
-    margin-bottom: 100px;
-    margin:100px auto;
+    margin-bottom: 100px; /* margin with the next section */
+    margin:100px auto; /* center the blue bloc */
     justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
 }
 
 .signup-section h1 {
@@ -190,6 +187,11 @@ body {
 /* footer */
 
 .footer {
+    display: flex;
     background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    height: 50px;
 
 }
