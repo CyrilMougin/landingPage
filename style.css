@@ -11,7 +11,6 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
-    
 }
 
 body {
@@ -24,8 +23,7 @@ body {
     flex: 1;
 }
 
-
-/*  HEADER CSS */
+/*  header */
 
 .header {
     display: flex;
@@ -39,20 +37,16 @@ body {
     font-size: 24px;
     color: #f9faf8;
     margin-left: 200px; 
-    
 }
 
 .header-links {
     display: flex;
     gap: 16px;
     font-size: 18px;
-    margin-right: 200px;
-    
-    
+    margin-right: 200px;   
 }
 
-
-/*   HERO CSS */
+/*   hero */
 
 .hero{
     display: flex;
@@ -72,8 +66,7 @@ body {
     margin-right: 200px;
     color: #E5E7EB;
     font-size: 18px;
-    margin-top: 100px;
-    
+    margin-top: 100px; 
 }
 
 .hero-left h1 {  /* hero title */
@@ -90,12 +83,11 @@ body {
 }
 
 
-/* CHAT */
+/* cat */
 
 .main-content{
     text-align: center;
     margin-bottom: 150px; /* margin with the next section */
-    
 }
 
 .main-content h1 {  /* differents cats!*/
@@ -119,7 +111,6 @@ body {
     color: #1F2937
 }
 
-
 /* quote */ 
 
 .quote {
@@ -129,8 +120,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 350px;
-    margin-bottom: 100px; /* margin with the next section */
-    
+    margin-bottom: 100px; /* margin with the next section */  
 }
 
 .quote-cat {
@@ -148,8 +138,7 @@ body {
     font-style: normal;
 }
 
-
-/* Sign up section */ 
+/* sign up section */ 
 
 .signup-section {
     display: flex;
@@ -180,9 +169,7 @@ body {
     height: 30px;
     width: 150px ;
     color: #f9faf8;
-    
 }
-
 
 /* footer */
 
@@ -193,5 +180,4 @@ body {
     justify-content: center;
     color: #E5E7EB;
     height: 50px;
-
 }
